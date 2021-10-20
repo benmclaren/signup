@@ -27,7 +27,7 @@ const submitData = () => {
   formData.jobTitle = jobTitle.value;
   formData.password = password.value;
   formData.discovery = type.value;
-  console.log(formData)
+  console.log(formData);
   console.log('submitted');
 }
 
@@ -48,7 +48,7 @@ const checkInputs = () => {
   // get the values of all the inputs
   const firstNameValue = firstName.value
   const surnameValue = surname.value
-  const emailValue =email.value
+  const emailValue = email.value
   const phoneNumberValue = phoneNumber.value
   const jobTitleValue = jobTitle.value
   const passwordValue = password.value
