@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/dfae17168f.js" crossorigin="anonymous"></script>
+  <title>Sign up</title>
+</head>
+<body>
+
+  <header>
+    <p>Directly Apply</p>
+  </header>
+
+  <h1 class="hero">Find your dream job today with a free account</h1>
+
+  <div class="main-container">
+    <form action="#" class="form-sign-up">
+
+      <h2>Create Account</h2>
+      
+      <div class="name-container">
+        <div class="field field-first-name">
+          <label for="first-name">First name:</label>
+          <input type="text" placeholder="first name" id="first-name">
+          <p class="error-message">Error message</p>
+        </div>
+    
+        <div class="field field-surname">
+          <label for="surname">Surname:</label>
+          <input type="text" placeholder="surname" id="surname">
+          <p class="error-message">Error message</p>
+        </div>
+      </div>
+
+  
+      <div class="field field-email">
+        <label for="email">Email:</label>
+        <input type="email" placeholder="email" id="email">
+        <p class="error-message">Error message</p>
+      </div>
+  
+      <div class="field field-phone-number">
+        <label for="phone-number">Phone number:</label>
+        <input type="text" placeholder="phone number" id="phone-number">
+        <p class="error-message">Error message</p>
+      </div>
+  
+      <div class="field field-job">
+        <label for="job-title">Current job title:</label>
+        <input type="text" placeholder="current job title" id="job-title">
+        <p class="error-message">Error message</p>
+      </div>
+  
+      <div class="field field-password">
+        <label for="password">Password:</label>
+        <input type="password" placeholder="******" id="password">
+        <p class="error-message">Error message</p>
+      </div>
+
+      <div class="field field-password-confirm">
+        <label for="password">Confirm Password:</label>
+        <input type="password" placeholder="******" id="password-confirm">
+        <p class="error-message">Error message</p>
+      </div>
+  
+      <label for="discovery">How did you hear about us?</label>
+      <select name="find-out" id="dropdown" class="select">
+        <option value="Job Board">Job Board</option>
+        <option value="Friend/Colleague">Friend/Colleague</option>
+        <option value="Google Search" selected>Google search</option>
+        <option value="Recruiter">Recruiter</option>
+      </select>
+  
+      <input type="submit" value="Sign-up" class="btn-sign-up">
+    </form>
+  </div>
+  
+  <script src='app.js'></script>
+</body>
+</html> 
